@@ -6,7 +6,6 @@ class Solution:
         for i in range(length):
             if word[i] >= chr(65) and word[i] < chr(91):
                 count += 1
-
         if count == length:
             return True
         elif count == 0:
